@@ -1,0 +1,42 @@
+.about {
+    padding-top: 0px;
+  }
+  .about__item {
+    position: relative;
+  }
+  
+  .about__list {
+    display: flex;
+    column-gap: 30px;
+    margin-top: 50px;
+    position: relative;
+  }
+  
+  .about__title {
+    @include font (700, 36px, 1.17, 0.03em);
+    color: var(--main-title-color);
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  .about-after-title {
+    position: absolute;
+    width: 370px;
+    height: 70px;
+    display: flex;
+    column-gap: 30px;
+    background: rgba(47, 48, 58, 0.8);
+    align-items: center;
+    justify-content: center;
+    bottom: 0px;
+    left: 0;
+  }
+  
+  .about-past-title {
+    @include font (700, 14px, 1.14, 0.03em);
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    display: flex;
+  }
+  
